@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café Familiar DDLL</title>
+    <style>
+        /* Основные стили для теплой цветовой гаммы */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fdf6e3;
+            color: #5d4037;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #d7ccc8;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            color: #4e342e;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #bcaaa4;
+            padding: 10px;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #5d4037;
+            text-decoration: none;
+        }
+        .content {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        h2 {
+            color: #6d4c41;
+        }
+        .menu-item {
+            margin: 10px 0;
+        }
+        footer {
+            background-color: #d7ccc8;
+            padding: 10px;
+            text-align: center;
+            color: #4e342e;
+            font-size: 14px;
+        }
+        /* Отзывы */
+        #reviews {
+            margin-top: 20px;
+            padding: 10px;
+            border-top: 1px solid #bcaaa4;
+        }
+        #reviews textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #bcaaa4;
+            margin-top: 10px;
+            resize: vertical;
+        }
+        #reviews button {
+            background-color: #bcaaa4;
+            color: #5d4037;
+            border: none;
+            padding: 10px 20px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Bienvenidos al Café DDLL</h1>
+    <p>Disfruta de nuestros deliciosos ponques y bebidas en un ambiente cálido y acogedor.</p>
+</header>
+
+<nav>
+    <a href="#menu">Menú</a>
+    <a href="#reviews">Opiniones</a>
+</nav>
+
+<div class="content">
+    <section id="menu">
+        <h2>Menú de DDLL</h2>
+        <h3>Ponques</h3>
+        <div class="menu-item">
+            <strong>🍩 Chocolate</strong> - €2.50
+            <p>Un clásico ponque de chocolate, esponjoso y delicioso.</p>
+        </div>
+        <div class="menu-item">
+            <strong>🍩 Fresa</strong> - €2.50
+            <p>Ponque de fresa con un toque de dulzura natural.</p>
+        </div>
+        <div class="menu-item">
+            <strong>🍩 Caramelo</strong> - €2.50
+            <p>Suave ponque con cobertura de caramelo.</p>
+        </div>
+
+        <h3>Bebidas</h3>
+        <div class="menu-item">
+            <strong>💧 Agua</strong> - €1.00
+        </div>
+        <div class="menu-item">
+            <strong>☕ Cappuccino</strong> - €3.00
+        </div>
+        <div class="menu-item">
+            <strong>☕ Americano</strong> - €2.50
+        </div>
+        <div class="menu-item">
+            <strong>🍊 Jugo de Naranja</strong> - €2.00
+        </div>
+    </section>
+
+    <section id="reviews">
+        <h2>Opiniones de Nuestros Clientes</h2>
+        <p>Nos encantaría escuchar lo que piensas de nuestro café y servicio.</p>
+        <textarea rows="4" placeholder="Escribe tu opinión aquí..."></textarea>
+        <button>Enviar opinión</button>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 Café DDLL | Todos los derechos reservados</p>
+</footer>
+
+</body>
+</html>
